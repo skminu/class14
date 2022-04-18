@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+
+}
+
+/*Start Menubar Section*/
+.header_section{
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+.main_menu ul li{
+    display: inline-block;
+
+}
+.main_menu ul li a{
+    text-decoration: none;
+background-color: #48dbfb;
+    color: black;
+    padding: 10px 16px;
+    display: inline-block;
+    position: relative;
+}
+.main_menu ul li a:before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    bottom: 4px;
+    left: 5px;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+.main_menu ul li a:hover::before{
+    visibility: visible;
+    opacity: 1;
+    width: 80%;
+}
+.main_menu ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/*End Menubar Section*/
+
+/*Start Banner Section*/
+
+.banner_section{
+    padding: 100px 0px;
+    text-align: center;
+    background-color:#48dbfb ;
+}
+.banner_section h3{
+
+}
+
+.banner_section h1{
+
+}
+.banner_section button{
+    padding: 20px 43px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.banner_section button::before{
+    content: "";
+    width: 0;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition:4s;
+    z-index: -1;
+
+}
+.banner_section button:hover::before{
+    width: 100%;
+}
+.banner_section button:hover{
+    color: #fff;
+    z-index: 1;
+}
+
+.banner_section button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #aca7aa;
+}
+.banner_section button a span{}
+
+/*End Banner Section*/
+
+/*Start Step Section*/
+
+
+/*End Step Section*/
+.step_section{
+    background-color: #fff;
+    padding: 65px 0px;
+    text-align: center;
+}
+.step_item{
+
+}
+.step{
+    width: 60px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    line-height: 40px;
+    display: inline-block;
+
+}
+.step1{
+  
+
+}
+.step1:hover{
+  
+}
+.step2{
+
+}
+.step2:hover{
+
+}
+
+.step3{
+
+}
+.step3:hover{
+
+}
+
+/*Start Footer Section*/
+.footer_section{
+    background-color: #2e2f31;
+    padding: 15px 0px;
+    text-align: center;
+    color: #fff;
+}
+
+
+/*End Footer Section*/
